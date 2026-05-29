@@ -22,8 +22,8 @@ results = collection.query(
     n_results=30
 )
 
-for doc in results['documents']:
-    print(doc)
+# for doc in results['documents']:
+#     print(doc)
 # print(results['documents'])
 #print(results['metadatas'])
 
