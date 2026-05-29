@@ -2,6 +2,14 @@
 
 A Retrieval-Augmented Generation (RAG) system that answers questions about the EU AI Act using semantic search and Google's Gemini AI. Get accurate, compliance-focused guidance with citations directly from the regulatory text.
 
+## 📸 Project Overview
+
+![Project Overview - RAG in Action](project_overview.png)
+
+*Example: The RAG system correctly identifies that AI used for recruiting would be classified as **high-risk** under the EU AI Act and provides relevant compliance recommendations.*
+
+> **Note**: The `project_overview.png` file should be placed in the root directory of the project. This screenshot demonstrates the system in action, showing how it answers compliance questions with regulatory citations.
+
 ## 🎯 Features
 
 - **Semantic Search**: Finds relevant EU AI Act sections using vector embeddings
@@ -27,8 +35,8 @@ A Retrieval-Augmented Generation (RAG) system that answers questions about the E
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/yourusername/eu-ai-act-rag.git
-cd eu-ai-act-rag
+git clone https://github.com/nvmindmname-alt/RAG-system.git
+cd RAG-system
 ```
 
 ### 2. Create Virtual Environment
@@ -38,6 +46,14 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 ```
 
 ### 3. Install Dependencies
+Choose one based on your needs:
+
+**Option A: Minimal Installation (Recommended for most users)**
+```bash
+pip install -r requirements_minimal.txt
+```
+
+**Option B: Full Installation (Development & monitoring)**
 ```bash
 pip install -r requirements.txt
 ```

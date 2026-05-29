@@ -1,0 +1,21 @@
+# EU AI Act RAG System - Core Dependencies (May 2026)
+# Essential packages for the Retrieval-Augmented Generation system
+
+# Vector Database & Embeddings
+chromadb==1.0.4
+chroma-hnswlib==0.7.6
+
+# LLM & AI
+google-genai==0.5.2
+google-auth==2.39.0
+
+# Text Processing & Document Handling
+langchain-text-splitters==0.3.8
+langchain-core==0.3.51
+
+# Environment Management
+python-dotenv==1.1.0
+
+# Utilities
+requests==2.32.3
+pydantic==2.11.3
