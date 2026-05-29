@@ -1,3 +1,36 @@
+# Environment Variables
 .env
-venv
+.env.local
+
+# Python Virtual Environment
+venv/
+env/
+ENV/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project-specific
+chroma_db/
+*.db
+.ipynb_checkpoints/
 thumbnail.png
+
+# Distribution
+dist/
+build/
+*.egg-info/
