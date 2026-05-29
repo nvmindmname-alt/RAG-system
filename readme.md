@@ -2,11 +2,11 @@
 
 A Retrieval-Augmented Generation (RAG) system that answers questions about the EU AI Act using semantic search and Google's Gemini AI. Get accurate, compliance-focused guidance with citations directly from the regulatory text.
 
-## 📸 Project Overview
+## Project Overview
 
 ![Project Overview - RAG in Action](project_overview.png)
 
-## 🎯 Features
+## Features
 
 - **Semantic Search**: Finds relevant EU AI Act sections using vector embeddings
 - **Citation-Based Responses**: All answers include direct references to the regulation
@@ -14,20 +14,20 @@ A Retrieval-Augmented Generation (RAG) system that answers questions about the E
 - **Hallucination Prevention**: System limited to provided documents only—no fabricated information
 - **Easy Query Interface**: Simple terminal-based Q&A interaction
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Vector Database**: ChromaDB (persistent vector storage)
 - **LLM**: Google Gemini 3 Flash
 - **Text Processing**: LangChain
 - **Language**: Python 3.11+
 
-## 📋 Prerequisites
+## Prerequisites
 
 - Python 3.11 or higher
 - Google Generative AI API key (free at [Google AI Studio](https://aistudio.google.com/apikey))
 - macOS, Linux, or Windows
 
-## ⚙️ Installation
+## Installation
 
 ### 1. Clone the Repository
 ```bash
@@ -57,7 +57,7 @@ cp .env.example .env
 
 > Get your free API key from [Google AI Studio](https://aistudio.google.com/apikey)
 
-## 🚀 Usage
+## Usage
 
 ### Step 1: Populate the Vector Database
 Run this once to load and index the EU AI Act:
@@ -85,7 +85,7 @@ Example queries:
 - "How do I ensure GDPR compliance with AI?"
 - "What are the penalties for non-compliance?"
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 .
@@ -100,7 +100,7 @@ Example queries:
 └── README.md                       # This file
 ```
 
-## 🔧 How It Works
+## How It Works
 
 1. **Data Preparation** (`fill_db.py`):
    - Loads EU AI Act markdown
@@ -119,15 +119,7 @@ Example queries:
    - Enforces citations and compliance recommendations
    - Prevents hallucination through knowledge boundaries
 
-## 📚 Documentation
-
-- **[PROJECT_REPORT.md](PROJECT_REPORT.md)**: Comprehensive project analysis including:
-  - Objectives and context
-  - Methodology and technical approach
-  - Challenges and limitations
-  - Results and recommendations
-
-## ⚠️ Important Notes
+## Important Notes
 
 ### Disclaimer
 This tool provides informational assistance about the EU AI Act. It is **not** a substitute for professional legal counsel. Always:
@@ -144,17 +136,7 @@ This tool provides informational assistance about the EU AI Act. It is **not** a
 - Regulatory updates require manual document refresh
 - Recommend quarterly updates to maintain accuracy
 
-## 🚀 Future Enhancements
-
-- [ ] Multi-language support (EU official languages)
-- [ ] Integration with additional EU regulations (GDPR, Digital Services Act)
-- [ ] Web UI for broader accessibility
-- [ ] Local LLM option for cost reduction
-- [ ] Sector-specific compliance profiles
-- [ ] Chat history and conversation context
-- [ ] Document versioning and change tracking
-
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Feel free to:
 - Report bugs and issues
@@ -162,24 +144,14 @@ Contributions are welcome! Feel free to:
 - Add support for additional regulations
 - Improve documentation
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see LICENSE file for details.
 
-## 📞 Support
-
-For questions or issues:
-1. Check [PROJECT_REPORT.md](PROJECT_REPORT.md) for technical details
-2. Review existing issues in the repository
-3. Create a new issue with detailed description
-
-## 🔗 References
+## References
 
 - [EU AI Act (Official Text)](https://eur-lex.europa.eu/eli/reg/2024/1689/oj)
 - [ChromaDB Documentation](https://docs.trychroma.com/)
 - [Google Generative AI](https://ai.google.dev/)
 - [LangChain Documentation](https://python.langchain.com/)
 
----
-
-**Created**: 2024 | **Last Updated**: May 2026
