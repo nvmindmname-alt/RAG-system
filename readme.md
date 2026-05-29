@@ -121,14 +121,6 @@ This tool provides informational assistance about the EU AI Act. It is **not** a
 - Regulatory updates require manual document refresh
 - Recommend quarterly updates to maintain accuracy
 
-## Contributing
-
-Contributions are welcome! Feel free to:
-- Report bugs and issues
-- Suggest improvements
-- Add support for additional regulations
-- Improve documentation
-
 ## License
 
 This project is licensed under the MIT License - see LICENSE file for details.
