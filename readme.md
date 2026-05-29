@@ -85,21 +85,6 @@ Example queries:
 - "How do I ensure GDPR compliance with AI?"
 - "What are the penalties for non-compliance?"
 
-## Project Structure
-
-```
-.
-├── ask.py                          # Query interface & response generation
-├── fill_db.py                      # Database population & indexing
-├── requirements.txt                # Python dependencies
-├── .env.example                    # Environment variables template
-├── data/
-│   └── EU AI Act Markdown.md      # Source regulatory document
-├── chroma_db/                      # Vector database (persistent storage)
-├── PROJECT_REPORT.md               # Detailed project documentation
-└── README.md                       # This file
-```
-
 ## How It Works
 
 1. **Data Preparation** (`fill_db.py`):
